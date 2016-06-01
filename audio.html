@@ -1,0 +1,1168 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="Description" content="Создание и монтаж аудироликов">
+<meta name="Keywords" content="аудиореклама, аудиоролики, звук, монтаж аудио, IVR">
+<title> Аудио </title>
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link rel="icon" type="image/png" href="favicon.png" />
+<style type="text/css">
+	  		#featured { margin:51px 5% auto auto;; width: 800px; height: 350px; background: #009cff url('orbit/loading.gif') no-repeat center center; overflow: hidden; }
+	  		/* Want a different Loading GIF - visit http://www.webscriptlab.com/ - that's where we go this one :) */
+	  	</style>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<link rel="stylesheet" href="css/remodal.css">
+ <link rel="stylesheet" href="css/remodal-default-theme.css">
+<script src="js/remodal.min.js"></script>
+<script src="js/script.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<script type="text/javascript" src="js/jquery.orbit.min.js"></script>
+		
+		<!-- Run the plugin -->
+		<script type="text/javascript">
+			$(window).load(function() {
+				$('#featured').orbit({
+					'bullets': true,
+					'timer' : true,
+					'animation' : 'horizontal-slide'
+				});
+			});
+		</script>
+
+<script>
+$(document).ready(function(){
+    $("#jquery_jplayer_1").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: "audio/PES_Darenka.mp3",
+            
+          });
+        },
+        swfPath: "/js",
+        supplied: "mp3,oga",
+        play: function() { // Останавливаем остальные
+            $(this).jPlayer("pauseOthers");
+        },
+		wmode: "window",
+        smoothPlayBar: true,
+        keyEnabled: true
+    });
+ 
+    $("#jquery_jplayer_2").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: "audio/PES_088.mp3",
+            
+          });
+        },
+        swfPath: "/js",
+        supplied: "mp3,oga",
+        play: function() { // Останавливаем остальные
+            $(this).jPlayer("pauseOthers");
+        },
+        cssSelectorAncestor: "#jp_container_2",
+        wmode: "window",
+        smoothPlayBar: true,
+        keyEnabled: true
+    });
+	
+	$("#jquery_jplayer_3").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: "audio/PES_PPF.mp3",
+           
+          });
+        },
+        swfPath: "/js",
+        supplied: "mp3,oga",
+        play: function() { // Останавливаем остальные
+            $(this).jPlayer("pauseOthers");
+        },
+        cssSelectorAncestor: "#jp_container_3",
+        wmode: "window",
+        smoothPlayBar: true,
+        keyEnabled: true
+    });
+	
+	$("#jquery_jplayer_4").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: "audio/INF_MollyGreen_(00.25).mp3",
+           
+          });
+        },
+        swfPath: "/js",
+        supplied: "mp3,oga",
+        play: function() { // Останавливаем остальные
+            $(this).jPlayer("pauseOthers");
+        },
+        cssSelectorAncestor: "#jp_container_4",
+        wmode: "window",
+        smoothPlayBar: true,
+        keyEnabled: true
+    });
+	
+	$("#jquery_jplayer_5").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: "audio/INF_BAK_LADA.mp3",
+           
+          });
+        },
+        swfPath: "/js",
+        supplied: "mp3,oga",
+        play: function() { // Останавливаем остальные
+            $(this).jPlayer("pauseOthers");
+        },
+        cssSelectorAncestor: "#jp_container_5",
+        wmode: "window",
+        smoothPlayBar: true,
+        keyEnabled: true
+    });
+	
+	$("#jquery_jplayer_6").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: "audio/INF_Asimut.mp3",
+           
+          });
+        },
+        swfPath: "/js",
+        supplied: "mp3,oga",
+        play: function() { // Останавливаем остальные
+            $(this).jPlayer("pauseOthers");
+        },
+        cssSelectorAncestor: "#jp_container_6",
+        wmode: "window",
+        smoothPlayBar: true,
+        keyEnabled: true
+    });
+	
+	$("#jquery_jplayer_7").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: "audio/IVR_Datsun_(00.38).mp3",
+           
+          });
+        },
+        swfPath: "/js",
+        supplied: "mp3,oga",
+        play: function() { // Останавливаем остальные
+            $(this).jPlayer("pauseOthers");
+        },
+        cssSelectorAncestor: "#jp_container_7",
+        wmode: "window",
+        smoothPlayBar: true,
+        keyEnabled: true
+    });
+	
+	$("#jquery_jplayer_8").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: "audio/IVR_Datsun_2_(00.24).mp3",
+           
+          });
+        },
+        swfPath: "/js",
+        supplied: "mp3,oga",
+        play: function() { // Останавливаем остальные
+            $(this).jPlayer("pauseOthers");
+        },
+        cssSelectorAncestor: "#jp_container_8",
+        wmode: "window",
+        smoothPlayBar: true,
+        keyEnabled: true
+    });
+	
+	$("#jquery_jplayer_9").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: "audio/IGR_Atlant.mp3",
+           
+          });
+        },
+        swfPath: "/js",
+        supplied: "mp3,oga",
+        play: function() { // Останавливаем остальные
+            $(this).jPlayer("pauseOthers");
+        },
+        cssSelectorAncestor: "#jp_container_9",
+        wmode: "window",
+        smoothPlayBar: true,
+        keyEnabled: true
+    });
+	
+	$("#jquery_jplayer_10").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: "audio/IGR_5elem.mp3",
+           
+          });
+        },
+        swfPath: "/js",
+        supplied: "mp3,oga",
+        play: function() { // Останавливаем остальные
+            $(this).jPlayer("pauseOthers");
+        },
+        cssSelectorAncestor: "#jp_container_10",
+        wmode: "window",
+        smoothPlayBar: true,
+        keyEnabled: true
+    });
+	
+	$("#jquery_jplayer_11").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: "audio/IGR_Galaxy.mp3",
+           
+          });
+        },
+        swfPath: "/js",
+        supplied: "mp3,oga",
+        play: function() { // Останавливаем остальные
+            $(this).jPlayer("pauseOthers");
+        },
+        cssSelectorAncestor: "#jp_container_11",
+        wmode: "window",
+        smoothPlayBar: true,
+        keyEnabled: true
+    });
+	
+	$("#jquery_jplayer_12").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: "audio/EFI_ProntoMusic_RadioPoint_104fm_2_(00,12).mp3",
+           
+          });
+        },
+        swfPath: "/js",
+        supplied: "mp3,oga",
+        play: function() { // Останавливаем остальные
+            $(this).jPlayer("pauseOthers");
+        },
+        cssSelectorAncestor: "#jp_container_12",
+        wmode: "window",
+        smoothPlayBar: true,
+        keyEnabled: true
+    });
+	
+	$("#jquery_jplayer_13").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: "audio/EFI_Eco_radio.mp3",
+           
+          });
+        },
+        swfPath: "/js",
+        supplied: "mp3,oga",
+        play: function() { // Останавливаем остальные
+            $(this).jPlayer("pauseOthers");
+        },
+        cssSelectorAncestor: "#jp_container_13",
+        wmode: "window",
+        smoothPlayBar: true,
+        keyEnabled: true
+    });
+	
+	$("#jquery_jplayer_14").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: "audio/EFI_Radiopoint.mp3",
+           
+          });
+        },
+        swfPath: "/js",
+        supplied: "mp3,oga",
+        play: function() { // Останавливаем остальные
+            $(this).jPlayer("pauseOthers");
+        },
+        cssSelectorAncestor: "#jp_container_14",
+        wmode: "window",
+        smoothPlayBar: true,
+        keyEnabled: true
+    });
+});
+</script>
+
+</head>
+<body>
+
+<div id="wrapper"> 
+	<div id="white">
+			<p class="socialLeft"> Подпишитесь на нас в социальных сетях
+			</p>
+	<p class="social"> 
+		
+			<a href="http://vk.com" title="Вконтакте" target="_blank">
+				<i class="fa fa-vk"></i></a>
+			<a href="https://www.youtube.com/channel/UCU2YySEEwZ1bUBejkDdloJA" title="Youtube" target="_blank">
+				<i class="fa fa-youtube"></i></a>
+			
+			<a href="http://facebook.com" title="Facebook" target="_blank">
+				<i class="fa fa-facebook"></i></a>		
+			<a href="https://www.instagram.com/bigmak_2002/" title="Instagram" target="_blank">
+            <i class="fa fa-instagram"></i></a>
+		</p>
+	</div>
+	
+	<div id="soc">
+	<img src="images/logo1.jpg" width="450" height="200" id="logo" alt="Логотип">
+	
+		
+		</div>
+	<div id="menu"> 
+	
+	<ul> 
+			<li> <a href="index.html">МКС </a> </li> 
+			
+			<li> <a href="video.html"> Видео </a></li>
+			<li> <a href="audio.html"> Аудио </a></li> 
+			<li> <a href="event.html"> Event </a></li> 	
+			<li> <a href="coach.html"> Коучинг </a></li> 
+			<li> <a href="contacts.html"> Контакты </a></li>
+		</ul></div>
+	<div id= "header"> 	
+	<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter37091230 = new Ya.Metrika({
+                    id:37091230,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/37091230" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+	
+		<!Кнопка обратной формы>
+			<div class="homeH">
+				<p><a class="mainButtonH" href="#modal">Заказать обратный звонок </a></p>
+			</div>
+
+			<div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+				<div class="remodalBorder">
+					<p><img src="images/sendico.png"></p>
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<form id="form">
+						<h2 id="modal1Title">Оставьте ваши контактные данные <br> и мы свяжемся с вами</h2>
+						<input type="text" class="putName" name="name" placeholder="Введите ваше имя" required>
+						<input name="phone" type="tel" class="putPhone" placeholder="Введите номер телефона" required>
+						<input type="submit" name="submit" class="btn" value="ОТПРАВИТЬ">
+						<input type="hidden" name="formData" value="Заявка с сайта">
+					</form>
+				</div>
+			</div>
+			<!Конец>
+			
+		<p class="headerText">            			
+			<ul id="navbar">	
+				
+				
+				
+				<li class="ul1">				
+					<a href="#"> 
+						<i class="fa fa-map-marker" title="Прийти к нам"></i>
+					</a>
+					<ul> 
+						
+						
+						<li class="aUl" ><a href="https://goo.gl/maps/Twq6xuLit8q" class="ul5" target="_blank"> Проспект Ленина, 53</a> </li>
+					
+					</ul>
+				</li>	
+				<li class="ul2"> 
+					<a href="#"> 
+						<i class="fa fa-phone" title="Позвонить нам"></i> 
+					</a>
+					
+				<ul> 
+						<li class="ul4"> +79170471386 </li>
+				</ul>
+					
+				</li>
+				<li  class="ul6">
+					<a href="#"> 
+						<i class="fa fa-envelope" title="Написать нам"></i>
+					</a>
+				
+				<ul> 
+				
+					
+						<li class="aUl" ><a href="mailto:mksagensy@gmail.com" class="ul3" >mksagensy@gmail.com </a> </li>
+					</ul>
+				</li>
+
+			</ul>
+		</p>
+	
+	
+		
+		
+		
+		
+	</div>
+
+	<div id="content">
+			<div class="conCon">
+			<h1> Аудиоролики <br> Создание </h1>
+			</div>
+			<p class="text"> Создание аудиороликов, монтаж и запись аудио. Качественное оборудование и профессионализм позволяют <a href="index.html">нашим специалистам</a> делать хороший звук , который точно будет услышан.</p>
+			<p class="text"> На этой странице представлены примеры работ из нашей базы голосов: </p>
+			<p class="hr"> Информационные аудиоролики </p>
+			<p class="text"> Этот тип подойдет тем, кто хочет максимально полно и ясно, донести до слушателей необходимую информацию. Лаконичность и красочность - вот, что отражают аудиоролики, сделанные в нашей студии.</p>
+			<p class="hr"> IVR </p>
+			<p class="text"> IVR (Interactive Voice Response) - система предварительно записанных голосовых сообщений. Подобные сообщения могут использоваться в качестве основного музыкального сопровождения при обращении клиентов в call-center или в качестве автоответчика для организаций. Сделанные у нас, они неприменно впишутся в фирменный стиль вашей компании.</p>
+			<p class="hr"> Игровые </p>
+			<p class="text"> Вы хотите записать необычный аудиоролик? У вас есть оригинальный сценарий или вы хотите, чтобы мы придумали и реализовали оригинальную рекламную компанию? Тогда данная категория для вас! Игровой ролик будет интересен, креативен и точно запомнится аудитории.</p>
+			<p class="hr"> Песенные </p>
+			<p class="text"> Вы видите свою рекламу в форме музыкального песенного исполнения? Мы готовы вам помочь! Послушайте наши вокальные аудиоролики и закажите соответствующую рекламу. Ваша реклама станет новым хитом!</p>
+			<p class="hr"> Оформление эфира </p>
+			<p class="text"> Вы хотите создать запоминающуюся атмосферу для своей радиостанции? Создание аудиороликов для радиоэфира-наша профессиональная компетенция!</p>
+		
+
+		</div>
+	<div id="sideb">	
+					
+		<div class="sideCon">		
+			
+			<p class="hr4"> Информационные </p>
+			<div id="audio">
+				<!Плеер!>
+				<div id="jquery_jplayer_4" class="jp-jplayer"></div>
+				<div id="jp_container_4" class="jp-audio">
+					<div class="jp-type-single">
+						<div class="jp-title">
+							<ul>
+								<li>Мужской голос - рекламная кампания MollyGreen - г Екатеринбург</li>
+							</ul>
+						</div>
+					<div class="jp-gui jp-interface">
+
+						<ul class="jp-controls">
+							<li><a href="javascript:;" class="jp-play" tabindex="1">&#61515;</a></li>
+							<li><a href="javascript:;" class="jp-pause" tabindex="1">&#61516;</a></li>
+							<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">&#61480;</a></li>
+							<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">&#61478;</a></li>
+						</ul>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+								</div>
+							</div>
+							<div class="jp-time-holder">
+								<div class="jp-current-time"></div>
+							</div>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!Конец плеера!>
+			</div>
+				<!Плеер!>
+			<div id="audio">
+				<div id="jquery_jplayer_5" class="jp-jplayer"></div>
+				<div id="jp_container_5" class="jp-audio">
+					<div class="jp-type-single">
+						<div class="jp-title">
+							<ul>
+								<li> Мужской голос - рекламная акция Лада БашАвтоКом - г Уфа</li>
+							</ul>
+						</div>
+					<div class="jp-gui jp-interface">
+
+						<ul class="jp-controls">
+							<li><a href="javascript:;" class="jp-play" tabindex="1">&#61515;</a></li>
+							<li><a href="javascript:;" class="jp-pause" tabindex="1">&#61516;</a></li>
+							<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">&#61480;</a></li>
+							<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">&#61478;</a></li>
+						</ul>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+								</div>
+							</div>
+							<div class="jp-time-holder">
+								<div class="jp-current-time"></div>
+							</div>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!Конец плеера!>
+			</div>
+			<div id="audio">
+				<!Плеер!>
+				<div id="jquery_jplayer_6" class="jp-jplayer"></div>
+				<div id="jp_container_6" class="jp-audio">
+					<div class="jp-type-single">
+						<div class="jp-title">
+							<ul>
+								<li> Женский голос - рекламная кампания Азимут-отель - г Уфа </li>
+							</ul>
+						</div>
+					<div class="jp-gui jp-interface">
+
+						<ul class="jp-controls">
+							<li><a href="javascript:;" class="jp-play" tabindex="1">&#61515;</a></li>
+							<li><a href="javascript:;" class="jp-pause" tabindex="1">&#61516;</a></li>
+							<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">&#61480;</a></li>
+							<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">&#61478;</a></li>
+						</ul>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+								</div>
+							</div>
+							<div class="jp-time-holder">
+								<div class="jp-current-time"></div>
+							</div>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!Конец плеера!>
+			</div>
+		</div>	
+		
+		<!БЛОК IVR -------------------------!>
+		
+		<div class="sideCon">		
+			
+			<p class="hr4"> IVR </p>
+			<div id="audio">
+				<!Плеер!>
+				<div id="jquery_jplayer_7" class="jp-jplayer"></div>
+				<div id="jp_container_7" class="jp-audio">
+					<div class="jp-type-single">
+						<div class="jp-title">
+							<ul>
+								<li> Женский голос - Interactive Voice Response - Башавтоком <li>
+							</ul>
+						</div>
+					<div class="jp-gui jp-interface">
+
+						<ul class="jp-controls">
+							<li><a href="javascript:;" class="jp-play" tabindex="1">&#61515;</a></li>
+							<li><a href="javascript:;" class="jp-pause" tabindex="1">&#61516;</a></li>
+							<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">&#61480;</a></li>
+							<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">&#61478;</a></li>
+						</ul>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+								</div>
+							</div>
+							<div class="jp-time-holder">
+								<div class="jp-current-time"></div>
+							</div>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!Конец плеера!>
+			</div>
+				<!Плеер!>
+			<div id="audio">
+				<div id="jquery_jplayer_8" class="jp-jplayer"></div>
+				<div id="jp_container_8" class="jp-audio">
+					<div class="jp-type-single">
+						<div class="jp-title">
+							<ul>
+								<li>Женский Голос - Interactive Voice Response - Datsun Уфа</li>
+							</ul>
+						</div>
+					<div class="jp-gui jp-interface">
+
+						<ul class="jp-controls">
+							<li><a href="javascript:;" class="jp-play" tabindex="1">&#61515;</a></li>
+							<li><a href="javascript:;" class="jp-pause" tabindex="1">&#61516;</a></li>
+							<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">&#61480;</a></li>
+							<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">&#61478;</a></li>
+						</ul>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+								</div>
+							</div>
+							<div class="jp-time-holder">
+								<div class="jp-current-time"></div>
+							</div>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!Конец плеера!>
+			</div>
+			
+		</div>
+		
+		<!БЛОК ИГРОВЫЕ!>
+	<div class="sideCon">		
+			
+			<p class="hr4"> ИГРОВЫЕ </p>
+			<div id="audio">
+				<!Плеер!>
+				<div id="jquery_jplayer_9" class="jp-jplayer"></div>
+				<div id="jp_container_9" class="jp-audio">
+					<div class="jp-type-single">
+						<div class="jp-title">
+							<ul>
+								<li> Мужской/Женский голос - пластиковые окна Атлант - г Стерлитамак</li>
+							</ul>
+						</div>
+					<div class="jp-gui jp-interface">
+
+						<ul class="jp-controls">
+							<li><a href="javascript:;" class="jp-play" tabindex="1">&#61515;</a></li>
+							<li><a href="javascript:;" class="jp-pause" tabindex="1">&#61516;</a></li>
+							<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">&#61480;</a></li>
+							<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">&#61478;</a></li>
+						</ul>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+								</div>
+							</div>
+							<div class="jp-time-holder">
+								<div class="jp-current-time"></div>
+							</div>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!Конец плеера!>
+			</div>
+				<!Плеер!>
+			<div id="audio">
+				<div id="jquery_jplayer_10" class="jp-jplayer"></div>
+				<div id="jp_container_10" class="jp-audio">
+					<div class="jp-type-single">
+						<div class="jp-title">
+							<ul>
+								<li>Мужской голос - Sex Or War - магазин 5й Элемент г Стерлитамак</li>
+							</ul>
+						</div>
+					<div class="jp-gui jp-interface">
+
+						<ul class="jp-controls">
+							<li><a href="javascript:;" class="jp-play" tabindex="1">&#61515;</a></li>
+							<li><a href="javascript:;" class="jp-pause" tabindex="1">&#61516;</a></li>
+							<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">&#61480;</a></li>
+							<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">&#61478;</a></li>
+						</ul>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+								</div>
+							</div>
+							<div class="jp-time-holder">
+								<div class="jp-current-time"></div>
+							</div>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!Конец плеера!>
+			</div>
+			<div id="audio">
+				<!Плеер!>
+				<div id="jquery_jplayer_11" class="jp-jplayer"></div>
+				<div id="jp_container_11" class="jp-audio">
+					<div class="jp-type-single">
+						<div class="jp-title">
+							<ul>
+								<li>Детский/Женский/Мужской голос - Галактика - г Стерлитамак</li>
+							</ul>
+						</div>
+					<div class="jp-gui jp-interface">
+
+						<ul class="jp-controls">
+							<li><a href="javascript:;" class="jp-play" tabindex="1">&#61515;</a></li>
+							<li><a href="javascript:;" class="jp-pause" tabindex="1">&#61516;</a></li>
+							<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">&#61480;</a></li>
+							<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">&#61478;</a></li>
+						</ul>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+								</div>
+							</div>
+							<div class="jp-time-holder">
+								<div class="jp-current-time"></div>
+							</div>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!Конец плеера!>
+			</div>
+		</div>
+		
+		
+		<!БЛОК ПЕСЕННЫЕ!>
+	<div class="sideCon">		
+			
+			<p class="hr4"> Вокальные </p>
+			<div id="audio">
+				<!Плеер!>
+				<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+				<div id="jp_container_1" class="jp-audio">
+					<div class="jp-type-single">
+						<div class="jp-title">
+							<ul>
+								<li>Женский голос - Молочная усадьба - ОАО СМК город Стерлитамак</li>
+							</ul>
+						</div>
+					<div class="jp-gui jp-interface">
+
+						<ul class="jp-controls">
+							<li><a href="javascript:;" class="jp-play" tabindex="1">&#61515;</a></li>
+							<li><a href="javascript:;" class="jp-pause" tabindex="1">&#61516;</a></li>
+							<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">&#61480;</a></li>
+							<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">&#61478;</a></li>
+						</ul>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+								</div>
+							</div>
+							<div class="jp-time-holder">
+								<div class="jp-current-time"></div>
+							</div>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!Конец плеера!>
+			</div>
+				<!Плеер!>
+			<div id="audio">
+				<div id="jquery_jplayer_2" class="jp-jplayer"></div>
+				<div id="jp_container_2" class="jp-audio">
+					<div class="jp-type-single">
+						<div class="jp-title">
+							<ul>
+								<li>Женский/Мужской голос - Справочная служба "088" - Казахстан </li>
+							</ul>
+						</div>
+					<div class="jp-gui jp-interface">
+
+						<ul class="jp-controls">
+							<li><a href="javascript:;" class="jp-play" tabindex="1">&#61515;</a></li>
+							<li><a href="javascript:;" class="jp-pause" tabindex="1">&#61516;</a></li>
+							<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">&#61480;</a></li>
+							<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">&#61478;</a></li>
+						</ul>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+								</div>
+							</div>
+							<div class="jp-time-holder">
+								<div class="jp-current-time"></div>
+							</div>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!Конец плеера!>
+			</div>
+			<div id="audio">
+				<!Плеер!>
+				<div id="jquery_jplayer_3" class="jp-jplayer"></div>
+				<div id="jp_container_3" class="jp-audio">
+					<div class="jp-type-single">
+						<div class="jp-title">
+							<ul>
+								<li>Женский/Мужской голос - ПринтПлюсФото - город Стерлитамак</li>
+							</ul>
+						</div>
+					<div class="jp-gui jp-interface">
+
+						<ul class="jp-controls">
+							<li><a href="javascript:;" class="jp-play" tabindex="1">&#61515;</a></li>
+							<li><a href="javascript:;" class="jp-pause" tabindex="1">&#61516;</a></li>
+							<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">&#61480;</a></li>
+							<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">&#61478;</a></li>
+						</ul>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+								</div>
+							</div>
+							<div class="jp-time-holder">
+								<div class="jp-current-time"></div>
+							</div>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!Конец плеера!>
+			</div>
+		</div>
+				
+				
+		<!БЛОК ОФОРМЛЕНИЕ ЭФИРА!>
+	<div class="sideConLast">		
+			
+			<p class="hr4">Оформление эфира</p>
+			<div id="audio">
+				<!Плеер!>
+				<div id="jquery_jplayer_12" class="jp-jplayer"></div>
+				<div id="jp_container_12" class="jp-audio">
+					<div class="jp-type-single">
+						<div class="jp-title">
+							<ul>
+								<li>Женский голос - Pronto Music RadioPoint- Радиоточка</li>
+							</ul>
+						</div>
+					<div class="jp-gui jp-interface">
+
+						<ul class="jp-controls">
+							<li><a href="javascript:;" class="jp-play" tabindex="1">&#61515;</a></li>
+							<li><a href="javascript:;" class="jp-pause" tabindex="1">&#61516;</a></li>
+							<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">&#61480;</a></li>
+							<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">&#61478;</a></li>
+						</ul>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+								</div>
+							</div>
+							<div class="jp-time-holder">
+								<div class="jp-current-time"></div>
+							</div>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!Конец плеера!>
+			</div>
+				<!Плеер!>
+			<div id="audio">
+				<div id="jquery_jplayer_13" class="jp-jplayer"></div>
+				<div id="jp_container_13" class="jp-audio">
+					<div class="jp-type-single">
+						<div class="jp-title">
+							<ul>
+								<li> Мужской/Детский голос - ЭкоРадио - г Нижний Тагил</li>
+							</ul>
+						</div>
+					<div class="jp-gui jp-interface">
+
+						<ul class="jp-controls">
+							<li><a href="javascript:;" class="jp-play" tabindex="1">&#61515;</a></li>
+							<li><a href="javascript:;" class="jp-pause" tabindex="1">&#61516;</a></li>
+							<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">&#61480;</a></li>
+							<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">&#61478;</a></li>
+						</ul>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+								</div>
+							</div>
+							<div class="jp-time-holder">
+								<div class="jp-current-time"></div>
+							</div>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!Конец плеера!>
+			</div>
+			<div id="audio">
+				<!Плеер!>
+				<div id="jquery_jplayer_14" class="jp-jplayer"></div>
+				<div id="jp_container_14" class="jp-audio">
+					<div class="jp-type-single">
+						<div class="jp-title">
+							<ul>
+								<li>Мужской голос - Радиопрограмма - Радиоточка </li>
+							</ul>
+						</div>
+					<div class="jp-gui jp-interface">
+
+						<ul class="jp-controls">
+							<li><a href="javascript:;" class="jp-play" tabindex="1">&#61515;</a></li>
+							<li><a href="javascript:;" class="jp-pause" tabindex="1">&#61516;</a></li>
+							<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">&#61480;</a></li>
+							<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">&#61478;</a></li>
+						</ul>
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+								</div>
+							</div>
+							<div class="jp-time-holder">
+								<div class="jp-current-time"></div>
+							</div>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!Конец плеера!>
+			</div>
+		</div>
+		
+		
+		
+	</div>
+	<div id="guide">
+		<div class="GuideConAudio1">
+			<p class="hrGuide"> Информационные ролики для любой аудитории</p>
+			<!Кнопка обратной формы>
+			<div class="home">
+				<p><a class="mainButton" href="#modal">Хочу такую рекламу</a></p>
+			</div>
+
+			<div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+				<div class="remodalBorder">
+					<p><img src="images/sendico.png"></p>
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<form id="form">
+						<h2 id="modal1Title">Оставьте ваши контактные данные <br> и мы свяжемся с вами</h2>
+						<input type="text" class="putName" name="name" placeholder="Введите ваше имя" required>
+						<input name="phone" type="tel" class="putPhone" placeholder="Введите номер телефона" required>
+						<input type="submit" name="submit" class="btn" value="ОТПРАВИТЬ">
+						<input type="hidden" name="formData" value="Заявка с сайта">
+					</form>
+				</div>
+			</div>
+			<!Конец>
+		</div>
+	
+	<div class="GuideConAudio2">
+			<p class="hrGuide"> IVR-сообщения для вашего автоответчика</p>
+			<!Кнопка обратной формы>
+			<div class="home">
+				<p><a class="mainButton" href="#modal">Хочу такую рекламу</a></p>
+			</div>
+
+			<div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+				<div class="remodalBorder">
+					<p><img src="images/sendico.png"></p>
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<form id="form">
+						<h2 id="modal1Title">Оставьте ваши контактные данные <br> и мы свяжемся с вами</h2>
+						<input type="text" class="putName" name="name" placeholder="Введите ваше имя" required>
+						<input name="phone" type="tel" class="putPhone" placeholder="Введите номер телефона" required>
+						<input type="submit" name="submit" class="btn" value="ОТПРАВИТЬ">
+						<input type="hidden" name="formData" value="Заявка с сайта">
+					</form>
+				</div>
+			</div>
+			<!Конец>
+		</div>
+		<div class="GuideConAudio1">
+			<p class="hrGuide"> Игровые аудиролики</p>
+			<!Кнопка обратной формы>
+			<div class="home">
+				<p><a class="mainButton" href="#modal">Хочу такую рекламу</a></p>
+			</div>
+
+			<div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+				<div class="remodalBorder">
+					<p><img src="images/sendico.png"></p>
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<form id="form">
+						<h2 id="modal1Title">Оставьте ваши контактные данные <br> и мы свяжемся с вами</h2>
+						<input type="text" class="putName" name="name" placeholder="Введите ваше имя" required>
+						<input name="phone" type="tel" class="putPhone" placeholder="Введите номер телефона" required>
+						<input type="submit" name="submit" class="btn" value="ОТПРАВИТЬ">
+						<input type="hidden" name="formData" value="Заявка с сайта">
+					</form>
+				</div>
+			</div>
+			<!Конец>
+		</div>
+		<div class="GuideConAudio1">
+			<p class="hrGuide"> Аудиоролики с вокальным исполнением</p>
+			<!Кнопка обратной формы>
+			<div class="home">
+				<p><a class="mainButton" href="#modal">Хочу такую рекламу</a></p>
+			</div>
+
+			<div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+				<div class="remodalBorder">
+					<p><img src="images/sendico.png"></p>
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<form id="form">
+						<h2 id="modal1Title">Оставьте ваши контактные данные <br> и мы свяжемся с вами</h2>
+						<input type="text" class="putName" name="name" placeholder="Введите ваше имя" required>
+						<input name="phone" type="tel" class="putPhone" placeholder="Введите номер телефона" required>
+						<input type="submit" name="submit" class="btn" value="ОТПРАВИТЬ">
+						<input type="hidden" name="formData" value="Заявка с сайта">
+					</form>
+				</div>
+			</div>
+			<!Конец>
+		</div>
+		
+		<div class="GuideConLast">
+			<p class="hrGuide"> Ролики для оформления радиоэфира </p>
+			<!Кнопка обратной формы>
+			<div class="home">
+				<p><a class="mainButton" href="#modal">Хочу такую рекламу</a></p>
+			</div>
+
+			<div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+				<div class="remodalBorder">
+					<p><img src="images/sendico.png"></p>
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<form id="form">
+						<h2 id="modal1Title">Оставьте ваши контактные данные <br> и мы свяжемся с вами</h2>
+						<input type="text" class="putName" name="name" placeholder="Введите ваше имя" required>
+						<input name="phone" type="tel" class="putPhone" placeholder="Введите номер телефона" required>
+						<input type="submit" name="submit" class="btn" value="ОТПРАВИТЬ">
+						<input type="hidden" name="formData" value="Заявка с сайта">
+					</form>
+				</div>
+			</div>
+			<!Конец>
+		</div>
+	</div>
+				
+	
+	<div class="clear"> </div>
+	
+</div>
+	<div id="foot">
+		<p class="footPRight"> Телефон:    +79170471386 // E-mail:    mksagensy@gmail.com</p>
+		
+		<p class="footP"> &#169 2016 Рекламное агентство </p> <p class="footP"> Международная Креативная Студия </p>		
+			<p class="footP">Все права защищены</p>
+			
+				
+			
+			<p class="socialF"> Мы в соцсетях:
+				<a href="http://vk.com" title="Вконтакте" target="_blank"><i class="fa fa-vk"></i></a>
+				<a href="https://www.youtube.com/channel/UCU2YySEEwZ1bUBejkDdloJA" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a>
+				<a href="http://facebook.com" title="Facebook"><i class="fa fa-facebook" target="_blank"></i></a>			
+				<a href="https://www.instagram.com/bigmak_2002/" title="Instagram"><i class="fa fa-instagram" target="_blank"></i></a>
+			</p>
+		<img src="images/logoInverse.jpg" width="200" height="200" id="logoInverse" alt="Логотип">
+	</div> 
+</div>
+
+</body>
+</html>
