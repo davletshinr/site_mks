@@ -1197,7 +1197,9 @@ div.timer:hover span.pause.active { opacity: 1; }*/
 	#menu {
 		padding-left:0;
 	}
-	
+	#menu ul li {
+		float:none;
+	}
 
 
 #navbar{
