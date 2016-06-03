@@ -1214,7 +1214,7 @@ height:100px;
 		padding-left:0;
 		margin-left:20%;
 		margin-top:65px;
-		width:60%;
+		
 		
 		
 	}
@@ -1256,6 +1256,7 @@ display:none;
 .sideCon, .sideConLast {
 	background-color:white;
 	border:none;
+	width:100%;
 }
 
 #logoInverse {
@@ -1287,7 +1288,7 @@ body{
 }
 .text {
 	margin:0;
-	font-size:140%;
+	font-size:100%;
 	width:100%;
 }
 
@@ -1296,7 +1297,7 @@ body{
 }
 
 h1{
-	font-size:180%;
+	font-size:120%;
 }
 #foot {
 	margin:0;
