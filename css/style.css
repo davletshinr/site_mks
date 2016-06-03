@@ -1235,7 +1235,7 @@ display:none;
 	float:none;
 }
 
-#sideCon, #sideConLast {
+.sideCon, .sideConLast {
 	background-color:white;
 }
 
