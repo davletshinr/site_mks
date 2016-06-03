@@ -1196,7 +1196,7 @@ iframe {
 		display:none;
 	}
 	#white {
-		
+		width:100%;
 		background-color:#7ABCE0;
 	}
 	#logo {
@@ -1220,7 +1220,7 @@ height:100px;
 	#menu ul li {
 		margin-bottom:1px;
 		margin-left:1px;
-		width:120%;
+		
 		font-size:120%;
 	}
 
