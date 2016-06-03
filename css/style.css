@@ -205,17 +205,6 @@ font-size:15px;
 }
 
 
-#headerImg
-{
-	position:relative;
-	top:20px;
-	left:50px;
-	z-index:11;
-	
-
-	
-}
-
 
 
 
@@ -1202,5 +1191,15 @@ div.timer:hover span.pause.active { opacity: 1; }*/
 	#logo {
 		float:none;
 	}
+	
+	
+#menu ul li {
+	float: none;
+	
+	
+	
+
+}
+
 	
 }
