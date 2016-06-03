@@ -1223,4 +1223,8 @@ display:none;
 #content {
 	clear:both;
 }
+
+#sideb {
+	float:none;
+}
 }
