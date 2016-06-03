@@ -1297,4 +1297,8 @@ body{
 h1{
 	font-size:180%;
 }
+#foot {
+	margin:0;
+	width:100%;
+}
 }
