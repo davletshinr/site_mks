@@ -942,13 +942,7 @@ margin: 10px 20px auto 10px;
 	
 }
 
-@media screen and(max-width:720px)
-{
-	#white {
-		display:none;
-	}
-	
-}
+
 .logoWhite{
 	background: url(../images/logoSmallBl.png);	
 	display: block; /*  Рисунок как блочный элемент */
@@ -1197,3 +1191,16 @@ div.timer:hover span.pause.active { opacity: 1; }*/
 .orbit-bullets li.active { color: #222; background-position: -7px 0; }*/
 
 
+
+
+@media screen and(max-width:720px)
+{
+	#white {
+		display:none;
+	}
+	
+	#logo {
+		float:none;
+	}
+	
+}
