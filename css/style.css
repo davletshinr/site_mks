@@ -1270,7 +1270,7 @@ padding-right:3%;
 }
 
 .footPRight {
-	font-size:16px;
+	font-size:80%;
 	margin-bottom:20px;
 }
 iframe {
@@ -1283,7 +1283,7 @@ iframe {
 }
 #menu ul li a {
 	background-color:#69B4EB;
-	font-size:120%;
+	font-size:100%;
 }
 
 body{
@@ -1324,5 +1324,10 @@ h1{
 
 .socialF {
 	display:none;
+}
+
+.footP {
+	
+	margin-bottom:0;
 }
 }
