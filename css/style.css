@@ -1192,7 +1192,7 @@ iframe {
 	#wrapper {
 		width:100%;
 	}
-	#white {
+	#white .socialLeft {
 		display:none;
 	}
 	
