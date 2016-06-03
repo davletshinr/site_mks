@@ -1259,4 +1259,8 @@ iframe {
 #menu ul li a {
 	background-color:#69B4EB;
 }
+
+body{
+	background:none;
+}
 }
