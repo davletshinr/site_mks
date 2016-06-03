@@ -1191,7 +1191,8 @@ div.timer:hover span.pause.active { opacity: 1; }*/
 	#logo {
 		position:static;
 		float:none;
-		clear:both;		
+		clear:both;	
+margin-bottom:100px;		
 	
 	}
 	
