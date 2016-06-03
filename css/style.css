@@ -1256,4 +1256,7 @@ iframe {
 .hr4 {
 	display:none;
 }
+#menu ul li a {
+	background-color:#69B4EB;
+}
 }
