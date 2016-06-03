@@ -1214,9 +1214,7 @@ height:100px;
 		
 		
 	}
-	#menu ul li {
-		width:45%;
-	}
+
 	
 
 #header{
@@ -1278,7 +1276,11 @@ body{
 	font-size:140%;
 }
 
+#content a {
+	font-size:140%;
+}
+
 h1{
-	font-size:200%;
+	font-size:180%;
 }
 }
