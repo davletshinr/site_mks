@@ -1195,7 +1195,10 @@ iframe {
 	#white .socialLeft {
 		display:none;
 	}
-	
+	#white {
+		
+		background-color:#7ABCE0;
+	}
 	#logo {
 		position:static;
 		float:none;
@@ -1216,7 +1219,7 @@ height:100px;
 	}
 	#menu ul li {
 		margin-bottom:1px;
-		width:40%;
+		width:80%;
 		font-size:100%;
 	}
 
