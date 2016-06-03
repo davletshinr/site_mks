@@ -1229,6 +1229,7 @@ display:none;
 #content {
 	clear:both;
 	width:100%;
+	margin-bottom:100px;
 }
 
 #sideb {
