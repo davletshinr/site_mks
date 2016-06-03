@@ -1233,8 +1233,7 @@ display:none;
 #content {
 	clear:both;
 	width:100%;
-	margin-left:5%;
-	margin-right:5%;
+	margin:0 auto;
 	margin-bottom:100px;
 	margin-top:50px;
 	max-width:auto;
