@@ -1227,4 +1227,8 @@ display:none;
 #sideb {
 	float:none;
 }
+
+#sideCon, #sideConLast {
+	background-color:white;
+}
 }
