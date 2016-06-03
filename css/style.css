@@ -1272,5 +1272,10 @@ body{
 }
 .text {
 	margin:0;
+	font-size:100%;
+}
+
+h1{
+	font-size:300%;
 }
 }
