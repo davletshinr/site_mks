@@ -1210,6 +1210,7 @@ height:100px;
 		padding-left:0;
 		margin-top:65px;
 		
+		
 	}
 	
 
@@ -1238,6 +1239,7 @@ display:none;
 
 .sideCon, .sideConLast {
 	background-color:white;
+	border:none;
 }
 
 #logoInverse {
