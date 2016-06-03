@@ -1272,10 +1272,12 @@ body{
 }
 .conCon {
 	margin:0;
+	width:100%;
 }
 .text {
 	margin:0;
 	font-size:140%;
+	width:100%;
 }
 
 #content a {
