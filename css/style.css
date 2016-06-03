@@ -1181,7 +1181,10 @@ div.timer:hover span.pause.active { opacity: 1; }*/
 .orbit-bullets li { float: left; margin-left: 5px; cursor: pointer; color: #999; text-indent: -9999px; background: url(orbit/bullets.png) no-repeat; 0 0; width: 7px; height: 7px; overflow: hidden; }
 .orbit-bullets li.active { color: #222; background-position: -7px 0; }*/
 
-
+iframe {
+	width:360px;
+	height:240px;
+}
 
 
 @media screen and(max-width:720px)
@@ -1238,5 +1241,10 @@ display:none;
 
 #logoInverse {
 	display:none;
+}
+
+.footPRight {
+	font-size:16px;
+	margin-bottom:20px;
 }
 }
