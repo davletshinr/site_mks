@@ -1271,7 +1271,8 @@ padding-right:3%;
 
 .footPRight {
 	font-size:80%;
-	margin-bottom:20px;
+	margin-bottom:40px;
+	margin-left:15%;
 }
 iframe {
 	width:80%;
@@ -1329,6 +1330,6 @@ h1{
 
 .footP {
 	
-	margin-bottom:0;
+	margin-bottom:50px;
 }
 }
