@@ -1201,5 +1201,8 @@ div.timer:hover span.pause.active { opacity: 1; }*/
 	display:none;
 }
 
+.slide{
 	
+display:none;
+}
 }
