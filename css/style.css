@@ -941,6 +941,14 @@ margin: 10px 20px auto 10px;
 	height:63px;
 	
 }
+
+@media screen and(max-width:720px)
+{
+	#white {
+		display:none;
+	}
+	
+}
 .logoWhite{
 	background: url(../images/logoSmallBl.png);	
 	display: block; /*  Рисунок как блочный элемент */
