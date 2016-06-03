@@ -1208,7 +1208,8 @@ height:100px;
 	
 	#menu {
 		padding-left:0;
-		margin:0 auto;
+		margin-left:auto;
+		margin-right:auto;
 		margin-top:65px;
 		
 		
@@ -1265,5 +1266,8 @@ iframe {
 
 body{
 	background:none;
+}
+.conCon {
+	margin:0;
 }
 }
