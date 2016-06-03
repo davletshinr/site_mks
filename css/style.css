@@ -1198,11 +1198,9 @@ margin-bottom:100px;
 	
 	#menu {
 		padding-left:0;
+		margin-top:100px;
 	}
-	#menu ul li {
-		float:left;
-	}
-
+	
 
 #navbar{
 	display:none;
