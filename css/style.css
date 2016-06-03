@@ -1219,8 +1219,9 @@ height:100px;
 	}
 	#menu ul li {
 		margin-bottom:1px;
-		width:80%;
-		font-size:100%;
+		margin-left:1px;
+		width:120%;
+		font-size:120%;
 	}
 
 	
