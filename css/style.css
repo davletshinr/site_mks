@@ -1186,6 +1186,9 @@ div.timer:hover span.pause.active { opacity: 1; }*/
 
 @media screen and(max-width:720px)
 {
+	#wrapper {
+		width:100%;
+	}
 	#white {
 		display:none;
 	}
