@@ -1190,7 +1190,7 @@ div.timer:hover span.pause.active { opacity: 1; }*/
 	
 	#logo {
 		float:none;
-		display:block;
+		clear:both;
 	}
 	
 	
@@ -1200,6 +1200,10 @@ div.timer:hover span.pause.active { opacity: 1; }*/
 	
 	
 
+}
+
+.headerText{
+	display:none;
 }
 
 	
