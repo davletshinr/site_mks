@@ -1311,4 +1311,9 @@ h1{
 #sideb {
 	width:100%;
 }
+
+.social {
+	float:none;
+	text-align: center;
+}
 }
