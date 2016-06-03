@@ -1195,15 +1195,9 @@ div.timer:hover span.pause.active { opacity: 1; }*/
 	}
 	
 	
-#menu ul li {
-	float: none;
-	
-	
-	
 
-}
 
-#navbar{
+.header{
 	display:none;
 }
 
