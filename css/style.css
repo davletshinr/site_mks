@@ -1200,6 +1200,7 @@ iframe {
 		position:static;
 		float:none;
 		clear:both;	
+		margin:0 auto;
 margin-bottom:100px;	
 width:280px;
 height:100px;	
@@ -1208,8 +1209,7 @@ height:100px;
 	
 	#menu {
 		padding-left:0;
-		margin-left:auto;
-		margin-right:auto;
+		margin-left:30%;
 		margin-top:65px;
 		
 		
