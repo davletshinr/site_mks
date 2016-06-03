@@ -1197,11 +1197,11 @@ div.timer:hover span.pause.active { opacity: 1; }*/
 	
 
 
-.header{
+#navbar{
 	display:none;
 }
 
-.slide{
+#slide{
 	
 display:none;
 }
